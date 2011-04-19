@@ -1,0 +1,25 @@
+全体設定
+
+ ダウンロードおよびインストール Git
+  git config --global user.name "Your Name"
+  git config --global user.email g-morita@ec-one.com
+        
+
+次の手順:
+
+  mkdir sample_project
+  cd sample_project
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:g-morita/sample_project.git
+  git push -u origin master
+      
+
+すでにGitリポジトリがありますか?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:g-morita/sample_project.git
+  git push -u origin master
+      
